@@ -1,0 +1,1 @@
+docker run -it -p 8888:8888 --name pysandbox --rm  -v $PWD/sandbox:/usr/src/app -v $PWD/sqlite_data:/usr/src/sqlite_data -v $PWD/data:/usr/src/data pysandbox jupyter-lab --allow-root --no-browser --ip=0.0.0.0
